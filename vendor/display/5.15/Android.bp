@@ -4,9 +4,11 @@
 
 soong_namespace {
     imports: [
+        "vendor/oneplus/sm8750-common",
         "vendor/qcom/common/vendor/display",
         "vendor/qcom/common/vendor/qseecomd-legacy",
         "vendor/qcom/common/vendor/qseecomd",
+        "hardware/qcom-caf/sm8750",
     ],
 }
 
